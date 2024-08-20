@@ -8,7 +8,7 @@
 </div>
 <h2>About</h2>
 I wrote this up quickly to take the JSON output from using [this technique from Clark Voss] (https://clarkvoss.medium.com/making-small-things-big-972cf772bb5a) to dump document IDs from a salesforce CDN into an easy file.
- <br />
+ <br /> <br />
 This should be able to create the list of IDs from the output of "entityNameOrId":"ContentVersion" & "entityNameOrId":"ContentDocument"
 
 <h2>Usage</h2>
