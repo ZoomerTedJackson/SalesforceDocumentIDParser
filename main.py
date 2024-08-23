@@ -18,5 +18,5 @@ if not target_file.is_file():
 f = open(target_file)
 data = json.load(f)
 with open('Salesforce_Document_IDs.txt', 'w') as f:
-    for i in data["actions"][0]["returnValue"]["result"]:
+    for i in data["result"]:
         f.write(f"{i["record"]["Id"]}\n")
