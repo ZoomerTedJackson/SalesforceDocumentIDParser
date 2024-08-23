@@ -7,7 +7,7 @@
   </p>
 </div>
 <h2>About</h2>
-I wrote this up quickly to convert the JSON output you get when dumping document IDs from a Salesforce CDN into an easy file.
+I wrote this up quickly to convert the JSON output you get when dumping document IDs from a Salesforce CDN via the poc_salesforce_lightning tool by Moniik into an easy file.
  <br /> <br />
 This should be able to create the list of IDs from the output of "entityNameOrId":"ContentVersion" & "entityNameOrId":"ContentDocument"
 
