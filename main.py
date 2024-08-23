@@ -19,4 +19,4 @@ f = open(target_file)
 data = json.load(f)
 with open('Salesforce_Document_IDs.txt', 'w') as f:
     for i in data["result"]:
-        f.write(f"{i["record"]["Id"]}\n")
+        f.write(f'{i["record"]["Id"]}\n')
